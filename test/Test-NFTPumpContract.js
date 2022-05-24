@@ -39,7 +39,7 @@ if (true == true)
             let ethBalance = ethers.utils.formatEther(await ethers.provider.getBalance(owner.address));
             console.log("Start Balance: " + ethBalance);
 
-            const currentContract = await ethers.getContractFactory("StuffyBunny");
+            const currentContract = await ethers.getContractFactory("VisibleMFerFriends");
             currentToken = await currentContract.deploy(
                 'Test Contract',
                 'Test',
@@ -158,10 +158,10 @@ if (true == true)
             it("Mints a presale token from Dapp", async function () {
 
                 const PurchaseArray = [
-                    { amount: 1, value: "0.07" },
-                    { amount: 1, value: "0.07" },
-                    { amount: 1, value: "0.07" },
-                    { amount: 1, value: "0.07" }
+                    { amount: 1, value: "0.08" },
+                    { amount: 1, value: "0.08" },
+                    { amount: 1, value: "0.08" },
+                    { amount: 1, value: "0.08" }
                 ];
 
                 //Enable Mint Whitelist
@@ -208,7 +208,7 @@ if(false)
                 await expect(currentToken.whitelistClaimMint(1, 50,
                     whitelistClaimPass[0]
                     , {
-                        value: ethers.utils.parseEther("0.07")
+                        value: ethers.utils.parseEther("0.08")
                     })).to.be.revertedWith("Claim Mint Closed");
             });
 
