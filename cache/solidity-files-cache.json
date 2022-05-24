@@ -588,10 +588,10 @@
         "IERC20"
       ]
     },
-    "/Users/jessicagreene/Documents/GitHub/Visible-MFer-Friends/contracts/VisibleMFerFriends.sol": {
+    "/Users/jessicagreene/Documents/GitHub/Visible-MFer-Friends/contracts/VisibleMFerFrens.sol": {
       "lastModificationDate": 1653409855230,
       "contentHash": "9135a739e1f22527507ad1912c7fc169",
-      "sourceName": "contracts/VisibleMFerFriends.sol",
+      "sourceName": "contracts/VisibleMFerFrens.sol",
       "solcConfig": {
         "version": "0.8.11",
         "settings": {
@@ -627,7 +627,7 @@
         "^0.8.11"
       ],
       "artifacts": [
-        "VisibleMFerFriends"
+        "VisibleMFerFrens"
       ]
     },
     "/Users/jessicagreene/Documents/GitHub/Visible-MFer-Friends/node_modules/@openzeppelin/contracts/access/Ownable.sol": {

@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "VisibleMFerFriends",
-  "sourceName": "contracts/VisibleMFerFriends.sol",
+  "contractName": "VisibleMFerFrens",
+  "sourceName": "contracts/VisibleMFerFrens.sol",
   "abi": [
     {
       "inputs": [
@@ -1108,7 +1108,7 @@
               "type": "uint8"
             }
           ],
-          "internalType": "struct VisibleMFerFriends.WhitelistClaimPass",
+          "internalType": "struct VisibleMFerFrens.WhitelistClaimPass",
           "name": "whitelistClaimPass",
           "type": "tuple"
         }
